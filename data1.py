@@ -10,7 +10,7 @@ normilized_x = preprocessing.minmax_scale(x)
 normilized_y = preprocessing.minmax_scale(y)
 
 #print(normilized_x)
-print(x)
+#print(x)
 
 def gradient_descent(x,y):
     theta_one = 0
@@ -47,8 +47,8 @@ def gradient_descent(x,y):
     print("Learning Parameter : ", alpha)
 
 
-#gradient_descent(normilized_x,normilized_y)
-#plt.show()
+gradient_descent(normilized_x,normilized_y)
+plt.show()
 
 
 
